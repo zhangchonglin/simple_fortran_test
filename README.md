@@ -59,3 +59,4 @@ s higher precedence than the .EQV. operator.
  - `test2.F90` and `test3.F90` can be compiled
  - `test2.F90` is giving the wrong answer: `option 1`
  - `test3.F90` is giving the correct answer: `option 3`
+  - The test is run on RPI CCI AiMOS login node.
