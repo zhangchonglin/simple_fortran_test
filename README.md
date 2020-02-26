@@ -6,6 +6,7 @@ Compiler behavior:
  - `test1.F90` is giving the correct answer: `option 3`
  - `test2.F90` is giving the wrong answer: `option 1`
  - `test3.F90` is giving the correct answer: `option 3`
+ - The test is run on ORNL Summit login node.
 
 (2) GCC compiler: gcc/7.3.0-bt47fwr 
  - compile the code with command `gfortran test2.F90` or similar.
