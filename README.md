@@ -1,6 +1,6 @@
 Compiler behavior:
 
-(1) PGI compiler: pgi/19.4
+(1) PGI compiler: `pgi/19.4`
  - compile the code with command `pgf90 test1.F90` or similar.
  - All cases can be compiled.
  - `test1.F90` is giving the correct answer: `option 3`
@@ -8,7 +8,7 @@ Compiler behavior:
  - `test3.F90` is giving the correct answer: `option 3`
  - The test is run on ORNL Summit login node.
 
-(2) GCC compiler: gcc/7.3.0-bt47fwr 
+(2) GCC compiler: `gcc/7.3.0-bt47fwr` 
  - compile the code with command `gfortran test2.F90` or similar.
  - error compile `test1.F90`
   ```
@@ -28,8 +28,8 @@ Error: Logicals at (1) must be compared with .eqv. instead of .eq.
  - `test3.F90` is giving the correct answer: `option 3`
 
 
-(3) Intel compiler: intel/19.0.3.199
- - compile the code with command `ftn test1.F90` or similar on NERSC Cori.
+(3) Intel compiler: `intel/19.0.3.199`
+ - compile the code with command `ftn test1.F90` or similar on `NERSC Cori`.
  - All cases can be compiled.
  - `test1.F90` is giving the correct answer: `option 3`
  - `test2.F90` is giving the wrong answer: `option 1`
