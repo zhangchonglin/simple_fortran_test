@@ -27,4 +27,12 @@ Error: Logicals at (1) must be compared with .eqv. instead of .eq.
  - `test3.F90` is giving the correct answer: `option 3`
 
 
+(3) Intel compiler: intel/19.0.3.199
+ - compile the code with command `ftn test1.F90` or similar on NERSC Cori.
+ - All cases can be compiled.
+ - `test1.F90` is giving the correct answer: `option 3`
+ - `test2.F90` is giving the wrong answer: `option 1`
+ - `test3.F90` is giving the correct answer: `option 3`
+ - The behavior is the same as PGI compiler. 
+ - To run the code on NERSC Cori, need to request job allocation. 
 
